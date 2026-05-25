@@ -1,81 +1,109 @@
-# 🚀 RTOS on STM32F446RE
+# Embedded Systems & FreeRTOS Practice Repository
 
-> Hands-on Embedded Systems and FreeRTOS experiments using the STM32F446RE Cortex-M4 microcontroller.
+Welcome to this repository containing practical implementations of embedded systems experiments using the **STM32F446RE development board** and **FreeRTOS**.
 
-![STM32](https://img.shields.io/badge/MCU-STM32F446RE-blue)
-![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-green)
-![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE-orange)
-![Platform](https://img.shields.io/badge/Platform-ARM_Cortex_M4-red)
+This project focuses on building practical understanding of embedded software development, peripheral programming, and real-time operating system concepts through hands-on experimentation.
 
 ---
 
-## 📖 Overview
+## About This Project
 
-This repository contains a collection of embedded systems and FreeRTOS experiments performed on the **STM32F446RET6** microcontroller using **STM32CubeIDE** and **FreeRTOS** middleware.
+This repository includes multiple embedded programming experiments designed to strengthen practical knowledge in microcontroller-based system development.
 
-The project demonstrates the transition from:
-- Bare-metal embedded programming
-- Peripheral interfacing
-- Timer and PWM applications
-- RTOS-based multitasking
-- Synchronization primitives
-- Inter-task communication
+The implementation work covers:
 
-The experiments are designed for:
-- Embedded systems learning
-- RTOS fundamentals
-- STM32 peripheral programming
-- Academic lab work
-- Interview preparation
+- Basic microcontroller interfacing
+- Digital input/output operations
+- Timer-based functionality
+- PWM signal generation
+- Serial communication protocols
+- RTOS task scheduling
+- Task synchronization techniques
+- Queue communication
+- Semaphore handling
+- Interrupt-based processing
 
----
-
-## 🧠 Skills Demonstrated
-
-- STM32 HAL Programming
-- GPIO Configuration
-- Timer & PWM Configuration
-- USART Communication
-- RTOS Task Scheduling
-- Queue-Based IPC
-- Binary & Counting Semaphores
-- Interrupt Handling
-- Deferred Interrupt Processing
-- SWV ITM Debugging
-- CMSIS-RTOS V2 API
-- Preemptive Scheduling
+The project provides real implementation examples for learning embedded application design.
 
 ---
 
-# 🛠️ Hardware & Tools
+## Development Environment
 
-| Item | Details |
-|------|---------|
-| MCU | STM32F446RET6 |
-| Core | ARM Cortex-M4 @ 180 MHz |
-| Flash | 512 KB |
-| RAM | 128 KB |
-| RTOS | FreeRTOS |
+| Tool / Component | Information |
+|------------------|-------------|
+| Board Used | STM32 Nucleo-F446RE |
+| Microcontroller | STM32F446RET6 |
+| Architecture | ARM Cortex-M4 |
 | IDE | STM32CubeIDE |
-| Framework | STM32 HAL |
-| Board | Nucleo-F446RE |
+| RTOS Framework | FreeRTOS |
+| Language | Embedded C |
+| Libraries | STM32 HAL |
 
 ---
 
-# 📂 Repository Structure
+## Experiment Modules
+
+This repository contains the following practical modules:
+
+- EXP_1 → GPIO Programming
+- EXP_2 → Peripheral Interfacing
+- EXP_3 → Communication-Based Experiment
+- EXP_4 → PWM Applications
+- EXP_5 → Introduction to RTOS Tasks
+- EXP_6 → Task Scheduling Concepts
+- EXP_7 → Debugging / Monitoring
+- EXP_8 → Semaphore Implementation
+- EXP_9 → Queue Communication
+- EXP_10 → Advanced Synchronization
+
+---
+
+## Skills Covered
+
+Working on this repository helps develop understanding of:
+
+- Embedded C programming
+- STM32 peripheral control
+- Hardware abstraction layer usage
+- RTOS architecture
+- Concurrent task execution
+- Inter-task communication
+- Synchronization mechanisms
+- Interrupt handling
+- Real-time debugging
+
+---
+
+## Folder Structure
 
 ```text
-RTOS-ON-STM32F446RE/
+RTOS-Experiments
 │
-├── 01_GPIO_LED_Blink/
-├── 02_Button_LED_Toggle/
-├── 03_HCSR04_USART/
-├── 04_PWM_LED_Control/
-├── 05_FreeRTOS_Single_Task/
-├── 06_FreeRTOS_Task_Priority/
-├── 07_FreeRTOS_SWV_ITM_Tracing/
-├── 08_FreeRTOS_Binary_Semaphore/
-├── 09_Queue/
-├── 10_Counting_Semaphore/
+├── EXP_1
+├── EXP_2
+├── EXP_3
+├── EXP_4
+├── EXP_5
+├── EXP_6
+├── EXP_7
+├── EXP_8
+├── EXP_9
+├── EXP_10
 │
 └── README.md
+
+Purpose
+
+This repository serves as a practical embedded systems learning resource and demonstrates implementation of real-time operating system concepts on STM32 hardware.
+
+Suitable for:
+
+Academic embedded lab work
+Practical RTOS learning
+STM32 experimentation
+Embedded interview preparation
+Skill development
+
+Note
+
+All implementations were developed and tested using STM32CubeIDE with FreeRTOS support on STM32 hardware.
